@@ -4,6 +4,7 @@
  * Break strings when their length exceeds the width of their container.
  */
 
+[am-text~="break"],
 [data-am-text~="break"] {
   word-wrap: break-word !important;
 }
@@ -12,14 +13,17 @@
  * Horizontal text alignment
  */
 
+[am-text~="center"],
 [data-am-text~="center"] {
   text-align: center !important;
 }
 
+[am-text~="left"],
 [data-am-text~="left"] {
   text-align: left !important;
 }
 
+[am-text~="right"],
 [data-am-text~="right"] {
   text-align: right !important;
 }
@@ -28,6 +32,7 @@
  * Inherit the ancestor's text color.
  */
 
+[am-text~="inheritColor"],
 [data-am-text~="inheritColor"] {
   color: inherit !important;
 }
@@ -41,6 +46,7 @@
  * 3. Safari 7 and future browsers
  */
 
+[am-text~="kern"],
 [data-am-text~="kern"] {
   text-rendering: optimizeLegibility; /* 1 */
   font-feature-settings: "kern" 1; /* 2 */
@@ -51,6 +57,7 @@
  * Prevent whitespace wrapping
  */
 
+[am-text~="noWrap"],
 [data-am-text~="noWrap"] {
   white-space: nowrap !important;
 }
@@ -67,6 +74,7 @@
  *    nodes.
  */
 
+[am-text~="truncate"],
 [data-am-text~="truncate"] {
   max-width: 100%; /* 1 */
   overflow: hidden !important;
