@@ -1,0 +1,22 @@
+{
+  "name": "am-utils-text",
+  "description": "Text utilities for SUIT CSS in the AM convention",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vinspee/am-utils-text.git"
+  },
+  "keywords": [
+    "browser",
+    "css-utilities",
+    "text",
+    "am",
+    "suit",
+    "css",
+    "style"
+  ]
+}

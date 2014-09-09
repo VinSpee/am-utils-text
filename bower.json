@@ -1,0 +1,12 @@
+{
+  "name": "am-utils-text",
+  "author": "Vince Speelman",
+  "main": "lib/text.css",
+  "ignore": [
+    ".*",
+    "CHANGELOG.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}

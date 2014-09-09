@@ -1,0 +1,7 @@
+{
+  "name": "am-utils-text",
+  "repo": "vinspee/am-utils-text",
+  "styles": ["lib/text.css"],
+  "author": "Vince Speelman",
+  "license": "MIT"
+}
